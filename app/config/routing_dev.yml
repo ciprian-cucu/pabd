@@ -25,3 +25,10 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+preataadrianamaria:
+    path: /preataadrianamaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::preataadrianamaria.html.twig'
+
