@@ -25,3 +25,8 @@ _configurator:
 
 _main:
     resource: routing.yml
+coroiuadriana:
+    path: /coroiuadriana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::coroiuadriana.html.twig'
