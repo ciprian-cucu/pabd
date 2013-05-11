@@ -25,3 +25,9 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+stancristian:
+    path: /stancristian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::stancristian.html.twig'
