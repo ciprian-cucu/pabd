@@ -25,3 +25,9 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+hateganioanamaria:
+    path: /hateganioanamaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::hateganioanamaria.html.twig'
