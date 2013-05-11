@@ -25,3 +25,8 @@ _configurator:
 
 _main:
     resource: routing.yml
+loredana:
+    path: /loredana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::loredana.html.twig'
