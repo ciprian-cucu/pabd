@@ -38,3 +38,8 @@ loredana:
         _controller: FrameworkBundle:Template:template
         template: '::loredana.html.twig'
 
+coroiuadriana:
+    path: /coroiuadriana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::coroiuadriana.html.twig'
