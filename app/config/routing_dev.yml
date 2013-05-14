@@ -26,7 +26,6 @@ _configurator:
 _main:
     resource: routing.yml
 
-<<<<<<< HEAD
 stancristian:
     path: /stancristian
     defaults:
@@ -44,10 +43,10 @@ coroiuadriana:
     defaults:
         _controller: FrameworkBundle:Template:template
         template: '::coroiuadriana.html.twig'
-=======
+
 hateganioanamaria:
     path: /hateganioanamaria
     defaults:
         _controller: FrameworkBundle:Template:template
         template: '::hateganioanamaria.html.twig'
->>>>>>> 44495928f616fbad560e4594c798dbe71be2caf4
+
