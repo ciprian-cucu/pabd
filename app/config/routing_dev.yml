@@ -56,3 +56,9 @@ preataadrianamaria:
         _controller: FrameworkBundle:Template:template
         template: '::preataadrianamaria.html.twig'
 
+raicabogdan:
+    path: /raicabogdan
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::raicabogdan.html.twig'
+
