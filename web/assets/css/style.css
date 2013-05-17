@@ -1,0 +1,23 @@
+body, html {
+width:80%;
+margin: 0 auto 0 auto;
+text-align: justify;
+}
+
+body {
+background:#ffe2e3;
+}
+.img {
+width:200px;
+height:200px;
+float:right;
+margin:5px;
+
+}
+.image {
+width:200px;
+height:150px;
+float:right;
+margin:5px;
+
+}
