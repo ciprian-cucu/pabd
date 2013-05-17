@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}lucian{% endblock %}
+
+{% block body %}
+    {% for entry in blog_entries %}
+        <h2>{{ lucian}}</h2>
+        <p>{{ entry.body }}</p>
+    {% endfor %}
+{% endblock %}
