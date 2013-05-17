@@ -1,6 +1,49 @@
-{% extends '::base.html.twig' %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block stylesheets %}
+            <link href="{{ asset('assets/css/style.css') }}" type="text/css" rel="stylesheet" />
+        {% endblock %}
+        <title>{% block title %}Preatza{% endblock %}</title>
+    </head>
+    <body>
+        <div id="continut">
+            {% block sidebar %}
+             <ul type="circle">
+                <li>Nume: Preata Adriana Maria</li>
+                <li>Specializare: PABD II</li>
+                <li>Materie: Proiect software in echipa</li>
+                <li>Data: 17.05.2013</li>
+            </ul>
+<h1 align="center">Natura</h1>
+<p><img src="{{ asset('assets/images/papagal.gif') }}"  alt="Symfony!" class="image1"/>
+<h3>Un creier cât o nucă, gazda unei inteligenţe ieşite din comun</h3>
+Cel mai cunoscut papagal din istorie, Alex, a demonstrat de-a lungul vieţii sale capacităţi extraordinare. Proprietara lui, 
+prof. Irene Pepperberg, afirmă că Alex avea capacitatea intelectuală a unui copil de 5 ani şi inteligenţa emoţională a unuia de 
+2 ani, fiind încă departe de a-şi atinge potenţialul maxim atunci când a murit.Irene Pepperberg, profesor de psihologie la 
+Universitatea Brandeis şi totodată cercetător la Universitatea Harvard, l-a cumpărat pe Alex dintr-un magazin de animale de 
+companie din Chicago în iunie 1977, când acesta avea vârsta de 12 - 13 luni. Timp de 30 de ani, Alex a făcut parte dintr-un 
+experiment dirijat de Pepperberg, fiind antrenat în mod continuu. Cu timpul, papagalul a reuşit să numere, să recunoască 
+noţiuni, să stăpânească un vocabular de peste 150 de cuvinte şi chiar să dezvolte o relaţie afectivă cu Irene.
+Cercetarea realizată de prof. Pepperberg a demonstrat că primatele nu sunt singurele animale ce prezintă o capacitate 
+cognitivă suficient de avansată pentru a permite folosirea unui limbaj complex, cum considera la acel moment comunitatea 
+ştiinţifică. „Alex a arătat că o creatură cu creierul cât o nucă poate duce la bun sfârşit aceleaşi sarcini îndeplinite de 
+maimuţele antropoide, de delfini şi, în anumite cazuri, de copiii mici. Educarea lui a fost o realizare extraordinară”, 
+explică dr. Pepperberg.</p>		
 
-{% block title %}Titlu{% endblock %}
-{% block body %}
-   <p>Pagina mea: Preata Adriana Maria</p>
-{% endblock %}
+<p><img src="{{ asset('assets/images/balena.jpg') }}"  alt="Symfony!" class="image2"/>
+<h3>Vânătoarea de balene: crime în numele ignoranţei şi lăcomiei</h3>
+Timp de mii de ani oamenii au vânat în egală măsură balene şi delfini. Parcă un val de ură a întunecat conştiinţa multor 
+semeni de-ai noştri cu privire la vieţile acestor giganţi blânzi ai mărilor şi oceanelor. Tonul genocidului a fost dat încă 
+din timpuri imemoriale, dar apogeul măcelurilor a avut loc în ultimele două secole. Nici astăzi situaţia nu a fost remediată
+ în totalitate. Invocând diverse motive, cei care câştigă mulţi bani din uciderea marilor cetacee continuă să le vâneze nemilos,
+  ba chiar caută neîncetat noi metode de a eluda legile internaţionale menite să protejeze cele mai mari vieţuitoare ale Terrei.
+   În aceste condiţii, supravieţuirea cetaceelor se tranformă într-o responsabilitate pentru specia umană. La urma urmei, nu tot
+    oamenii sunt cei care le-au dus aproape de extincţie?
+</p>
+ 				{% endblock %}        
+        </div>
+
+
+    </body>
+</html>
