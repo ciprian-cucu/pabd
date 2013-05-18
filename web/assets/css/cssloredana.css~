@@ -1,0 +1,44 @@
+body
+{
+background-color:#d0e4fe;
+font-family:"Arial";
+font-size:24px;
+padding:25px 50px 75px;
+}
+
+p.margin
+{
+margin-top:100px;
+margin-bottom:100px;
+margin-right:50px;
+margin-left:50px;
+}
+
+h1
+{
+color:blueviolet;
+text-align:justify;
+}
+
+p
+{
+    font-family:"Times New Roman";
+    font-size:20px;
+    text-align:justify;
+}
+
+img.top 
+{
+width:300px; 
+height:300px;
+float:left;
+margin:50px;
+}
+
+img.bottom 
+{
+width:300px; 
+height:300px;
+float:right;
+margin:50px;
+}
