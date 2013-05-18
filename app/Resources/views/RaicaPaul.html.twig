@@ -1,0 +1,14 @@
+{% extends '::base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+
+    <link href="{{ asset('Assets/css/background.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+{% block title %}Nume prenume{% endblock %}
+
+{% block body %}
+    
+        <h2>Raica Paul</h2>
+        <p>text</p>
+    	  <img src="{{ asset('Assets/img/pisi.jpg') }}" alt="Symfony!" />
+{% endblock %}

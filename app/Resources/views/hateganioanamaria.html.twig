@@ -1,6 +1,45 @@
 {% extends '::base.html.twig' %}
+{% block stylesheets %}
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
 
-{% block title %}text{% endblock %}
+{% block title %}Pagina mea{% endblock %}
 {% block body %}
-    <p>Hategan Ioana</p>
+<a href="{{ path('_welcome') }}">Home</a>
+
+   <h1>Fluturi
+   <img src="{{ asset('assets/images/butterfly1.jpg') }}" alt="Primul flutur!" class="image" />
+   </h1>
+
+        <ul id="navigation">
+                <li>Hategan Ioana Maria</li>
+                <li>PABD II</li>
+                <li>Proiect software in echipa</li>
+         </ul>
+
+<h2>Introducere</h2>
+<p>Un fluture este o insecta din ordinul Lepidoptera. Scopul termenului depinde de cât de extins este conceptul de fluture. Ca si toate Lepidopterele, fluturii sunt de remarcat pentru ciclul lor de viata neobisnuit, cu un stadiu larvar de omida, un stadiu inactiv de pupa si o metamorfoza spectaculoasa într-o forma familiara de adult cu aripi colorate. Deoarece cele mai multe specii zboara ziua, atrag de regula atentia.
+
+Diversele modele formate pe aripile colorate si zborul lor extravagant si gratios au facut ca observarea fluturilor sa devina un hobby popular.</p>
+
+<h2>Origine si distributie</h2>
+<p>Fluturii apartin arborelui evolutionist al moliilor. Originea lor a fost stabilita în peioada cretacica, care s-a încheiat în urma cu 65 de milioane de ani.[1] Din pacate, exista o arhiva foarte limitata de fosile. Cea mai veche fosila este a unui posibil fluture skipper, nedenumit, din perioada paleocenului superior (cu circa 57 de milioane de ani în urma), din Fur, Danemarca.
+
+frumos conservate exemplare este un Riodininae (Voltinia dramba) din urma cu 25 de milioane de ani, gasit într-un chihlimbar din Republica Dominicana[3].
+
+Fluturii sunt distribuiti în prezent în toata lumea, cu exceptia regiunilor foarte calde si aride. A fost estimat un numar de 17,500 de specii de fluturi (Papilionoidea) dintr-un numar de 180,000 de specii de Lepidoptera.[4]</p>
+<img src="{{ asset('assets/images/butterfly.jpg') }}" alt="Al doilea flutur!" class="img" />
+
+
+<ul>
+<li>Clasificare <span class="anchor" id="line-14"></span>
+</li>
+<li>În prezent, majoritatea expertilor includ superfamiliile Hedyloidea (moliile-fluture americane), Hesperioidea (the skippers) si Papilionoidea (asa-numitii fluturi adevarati). Acest concept de fluturi care include Hedyloidea este unul dezvoltat recent care face ca grupul Rhopalocera sa fie o clada naturala. <span class="anchor" id="line-15"></span>
+</li>
+<li>Fluturii se clasifica în fluturi adevarati (superfamilia Papilionoidea), fluturi skipper (superfamilia Hesperioidea), si fluturi-molii (superfamilia Hedyloidea). <span class="anchor" id="line-16"></span>
+</li>
+<li>Papilionidae este o familie de fluturi colora?i care cuprinde cel putin 500 de specii si, desi majoritatea pot fi gasiti în regiuni tropicale, exista pe toate continentele, cu exceptia Antarcticii membri ai acestei familii. Familia include cei mai mari fluturi din lume, fluturii din Australia (genul Ornithoptera). <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span>
+</li>
+</ul>
+
 {% endblock %}
