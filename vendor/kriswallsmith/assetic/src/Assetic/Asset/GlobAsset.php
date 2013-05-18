@@ -11,8 +11,9 @@
 
 namespace Assetic\Asset;
 
+use Assetic\Util\PathUtils;
+
 use Assetic\Filter\FilterInterface;
-use Assetic\Util\VarUtils;
 
 /**
  * A collection of assets loaded by glob.
@@ -97,7 +98,7 @@ class GlobAsset extends AssetCollection
     private function initialize()
     {
         foreach ($this->globs as $glob) {
-            $glob = VarUtils::resolve($glob, $this->getVars(), $this->getValues());
+            $glob = PathUtils::resolvePath($glob, $this->getVars(), $this->getValues());
 
             if (false !== $paths = glob($glob)) {
                 foreach ($paths as $path) {

@@ -1,4 +1,5 @@
 _assetic:
     resource: .
     type: assetic
-
+_app:
+    resource: app/config/routing_dev.yml

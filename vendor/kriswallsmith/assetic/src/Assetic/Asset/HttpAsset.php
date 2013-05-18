@@ -11,8 +11,9 @@
 
 namespace Assetic\Asset;
 
+use Assetic\Util\PathUtils;
+
 use Assetic\Filter\FilterInterface;
-use Assetic\Util\VarUtils;
 
 /**
  * Represents an asset loaded via an HTTP request.
@@ -53,11 +54,13 @@ class HttpAsset extends BaseAsset
 
     public function load(FilterInterface $additionalFilter = null)
     {
-        $content = @file_get_contents(
-            VarUtils::resolve($this->sourceUrl, $this->getVars(), $this->getValues())
-        );
+        if (false === $content = @file_get_contents(PathUtils::resolvePath(
+                $this->sourceUrl, $this->getVars(), $this->getValues()))
+        ) {
+            if ($this->ignoreErrors) {
+                return;
+            }
 
-        if (false === $content && !$this->ignoreErrors) {
             throw new \RuntimeException(sprintf('Unable to load asset from URL "%s"', $this->sourceUrl));
         }
 
