@@ -25,3 +25,9 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+cristeadiana:
+    path: /cristeadiana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::cristeadiana.html.twig'
