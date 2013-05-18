@@ -3,6 +3,6 @@
 {% block title %}lucian{% endblock %}
 
 {% block body %}
-           <p>{{ lucian}}</p>
+           <p> lucian</p>
    
 {% endblock %}
