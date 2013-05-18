@@ -62,9 +62,14 @@ raicabogdan:
         _controller: FrameworkBundle:Template:template
         template: '::raicabogdan.html.twig'
 
-
 cristeadiana:
     path: /cristeadiana
     defaults:
         _controller: FrameworkBundle:Template:template
         template: '::cristeadiana.html.twig'
+
+raicapaul:
+    path: /raicapaul
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::raicapaul.html.twig'

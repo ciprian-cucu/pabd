@@ -26,8 +26,44 @@ _configurator:
 _main:
     resource: routing.yml
 
+stancristian:
+    path: /stancristian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::stancristian.html.twig'
+
+loredana:
+    path: /loredana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::loredana.html.twig'
+
+coroiuadriana:
+    path: /coroiuadriana
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::coroiuadriana.html.twig'
+
 hateganioanamaria:
     path: /hateganioanamaria
     defaults:
         _controller: FrameworkBundle:Template:template
         template: '::hateganioanamaria.html.twig'
+
+preataadrianamaria:
+    path: /preataadrianamaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::preataadrianamaria.html.twig'
+
+raicabogdan:
+    path: /raicabogdan
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::raicabogdan.html.twig'
+
+raicaraul:
+    path: /raicapaul
+    default:
+        _controller: FrameworkBundle:Template:template
+        template: '::raicapaul.html.twig'

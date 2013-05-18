@@ -1,5 +1,4 @@
 _assetic:
     resource: .
     type: assetic
-_app:
-    resource: /var/www/dianacristea/pabd/app/config/routing_dev.yml
+
