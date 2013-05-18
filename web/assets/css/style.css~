@@ -1,0 +1,22 @@
+#continut, html{
+	background-color: #66CCFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 auto 0 auto;
+	width:80%;
+	text-align: justify;
+}
+
+.image1{
+	height:200px;
+	width: 200px;
+	float: left; 
+   margin: 3px; 
+}
+
+.image2{
+	height:200px;
+	width: 200px;
+	float: right;; 
+   margin: 3px; 
+}
+
