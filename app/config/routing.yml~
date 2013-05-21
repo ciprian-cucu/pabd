@@ -1,0 +1,3 @@
+acme_RaicaPaul:
+    resource: "@AcmeRaicaPaul/Resources/config/routing.yml"
+    prefix:   /
