@@ -1,0 +1,7 @@
+parameters:
+#    boldizsarzoltan.example.class: boldizsarzoltan\Bundle\Example
+
+services:
+#    boldizsarzoltan.example:
+#        class: %boldizsarzoltan.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
