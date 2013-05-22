@@ -1,0 +1,8 @@
+8ba7aecb547a7a742e86ed62d2f8e88e284eeb8d,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/_configurator/,1369156740,
+6634e725c9e9b83e4b0ba1c37afb0a27c4a876b1,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/_configurator/step/0,1369156743,
+089ca5eda443d9660960788ccdb7aacced1adae3,127.0.0.1,POST,http://localhost/pabd/web/app_dev.php/_configurator/step/0,1369156811,
+4b59cc3f994f1973c543f97e135423f9b07f60cf,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/_configurator/step/1,1369156814,
+9c0742ff08b8663e4cac23fd7f49c7255c1713cc,127.0.0.1,POST,http://localhost/pabd/web/app_dev.php/_configurator/step/1,1369156825,
+e51ad669b4d895045cfe4ac9f19b77635b108b4d,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/_configurator/final,1369156829,
+c733edb3b269735700e52807dac236442c986641,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/,1369156839,
+46dae025b6922ee54397732b4e62ba7385ddba3b,127.0.0.1,GET,http://localhost/pabd/web/app_dev.php/,1369237570,
