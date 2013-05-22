@@ -1,0 +1,3 @@
+boldizsarzoltan_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: boldizsarzoltanBundle:Default:index }

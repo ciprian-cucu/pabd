@@ -1,0 +1,4 @@
+boldizsarzoltan:
+    resource: "@boldizsarzoltanBundle/Resources/config/routing.yml"
+    prefix:   /
+
