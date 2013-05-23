@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class ComposerAutoloaderInitc9310bf524f46565cc7db79475cf39a0
 =======
 class ComposerAutoloaderInita66abd3e60b9c8f6d2335ab48c26c532
@@ -11,6 +12,9 @@ class ComposerAutoloaderInita66abd3e60b9c8f6d2335ab48c26c532
 =======
 class ComposerAutoloaderInita14f0a103445e9c63bf05917080101c3
 >>>>>>> 45bd36928e6b7a9c7282b3b8a5bf5286305a52fd
+=======
+class ComposerAutoloaderInitac08b9263cac75356a5fe79a9e0c08cb
+>>>>>>> cd7fff948ed8ebcc0f89005b03afc3509c6df85a
 {
     private static $loader;
 
@@ -29,6 +33,7 @@ class ComposerAutoloaderInita14f0a103445e9c63bf05917080101c3
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         spl_autoload_register(array('ComposerAutoloaderInitc9310bf524f46565cc7db79475cf39a0', 'loadClassLoader'), true, true);
         self::$loader = $loader = new \Composer\Autoload\ClassLoader();
         spl_autoload_unregister(array('ComposerAutoloaderInitc9310bf524f46565cc7db79475cf39a0', 'loadClassLoader'));
@@ -42,6 +47,11 @@ class ComposerAutoloaderInita14f0a103445e9c63bf05917080101c3
         self::$loader = $loader = new \Composer\Autoload\ClassLoader();
         spl_autoload_unregister(array('ComposerAutoloaderInita14f0a103445e9c63bf05917080101c3', 'loadClassLoader'));
 >>>>>>> 45bd36928e6b7a9c7282b3b8a5bf5286305a52fd
+=======
+        spl_autoload_register(array('ComposerAutoloaderInitac08b9263cac75356a5fe79a9e0c08cb', 'loadClassLoader'), true, true);
+        self::$loader = $loader = new \Composer\Autoload\ClassLoader();
+        spl_autoload_unregister(array('ComposerAutoloaderInitac08b9263cac75356a5fe79a9e0c08cb', 'loadClassLoader'));
+>>>>>>> cd7fff948ed8ebcc0f89005b03afc3509c6df85a
 
         $vendorDir = dirname(__DIR__);
         $baseDir = dirname($vendorDir);

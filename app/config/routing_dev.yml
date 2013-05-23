@@ -62,8 +62,8 @@ raicabogdan:
         _controller: FrameworkBundle:Template:template
         template: '::raicabogdan.html.twig'
 
-raicaraul:
+raicapaul:
     path: /raicapaul
-    default:
+    defaults:
         _controller: FrameworkBundle:Template:template
         template: '::raicapaul.html.twig'
