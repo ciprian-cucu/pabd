@@ -3,7 +3,11 @@ _assetic:
     type: assetic
 _app:
 <<<<<<< HEAD
+<<<<<<< HEAD
     resource: /var/www/pabd/app/config/routing_dev.yml
 =======
     resource: /var/www/pabd/pabd/app/config/routing_dev.yml
 >>>>>>> 1b1437be2fd660ba8208de365038ca7744718474
+=======
+    resource: /var/www/pabad/pabd/app/config/routing_dev.yml
+>>>>>>> 45bd36928e6b7a9c7282b3b8a5bf5286305a52fd
