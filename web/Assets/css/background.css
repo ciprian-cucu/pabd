@@ -1,5 +1,22 @@
-body
-{
-background-image:url('paper.gif');
-background-color:#cccccc;
+body, html {
+width:50%;
+margin: 0 auto 0 auto;
+}
+
+body {
+background:#0E4052;
+}
+.img {
+width:150x;
+height:150px;
+float:right;
+margin:5px;
+
+}
+.image {
+width:150px;
+height:150px;
+float:right;
+margin:5px;
+
 }
