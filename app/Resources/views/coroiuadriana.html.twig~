@@ -1,0 +1,51 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+				<link href="{{ asset('assets/css/cssadriana.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block title %}Adriana's Page{% endblock %}
+
+{% block body %}         
+            <ul>
+                <li>PABD - Proiect Software in echipa</li>
+                <li>Adriana Mihaela Coroiu</li>
+                <li>Issue2 - Crearea unei pagini</li>
+                <li>Issue3 - Creare legaturi</li>
+          		 </ul>
+
+							<h3> Issue3 - Crearea legaturilor catre paginiile colegilor! </h3>
+      <p link=class>
+           <a href="{{ path('hateganioanamaria') }}" target ="blank" >Ioana Hategan</a>
+           <br>
+           <a href="{{ path('preataadrianamaria') }}" target ="blank" >Adriana Preata</a>
+            <br>
+            <a href="{{ path('loredana') }}"target ="blank" >Loredana Buica</a>
+             <br>
+           <a href="{{ path('stancristian') }}"target ="blank" >Cristian Stan</a>
+            <br>
+            <a href="{{ path('raicabogdan') }}"target ="blank" >Bogdan Raica</a>
+            <br>
+             <a href="{{ path('coroiuadriana') }}"target ="blank" >And again my page, Adriana</a>
+      </p>							 
+							 
+							 
+           <h3> Issue 2 - Primavara - descriere </h3> 
+           
+           
+             <p> 
+            <img class="img1" src="{{ asset('assets/images/spring.jpg') }}" alt="Primavara!" />	
+ Primavara este unul din cele patru anotimpuri ale zonei temperate, marcând tranziția de la iarnă spre vară. 
+            Din punct de vedere astronomic, marcarea începutului primăverii este, de cele mai multe ori, legată de echivalența dintre durata temporală zilei și a nopții, timp al anului numit echinox în astronomie. 
+            </p>
+        <p> Astfel, în emisfera nordică, echinoxul de primăvară este datat astronomic în jur de 21 martie al fiecărui an, în timp ce în emisfera sudică, același echinox este în jurul datei de 23 septembrie. Simultan cu existența unui echinox într-una din cele două emisfere ale Terrei, echinoxul "opus" marchează cealaltă emisferă.
+             </p>
+  <img class="img2" src="{{ asset('assets/images/images.jpg') }}" alt="Primavara" /> 
+<p> Daca nu ar fi iarna, atunci primavara nu ar fi atat de placuta. Daca nu am da de greu din cand in cand, atunci nu am aprecia prosperitatea.” Anne Bradstreet
+“Vor putea taia toate florile, insa nu vor putea opri primavara!” Pablo Neruda
+“Existam nu pentru a palavragi despre absurditatea lumii, ci pentru a ne da o justificare. Si uneori e de ajuns duiosia unui cer de primavara ca sa ne reaminteasca acest lucru.” Octavian Paler
+	  “Nu iubi primavara, ci infatisarea unei anumite flori in care primavara s-a inchis; nu iubi dragostea, ci pe cel in care dragostea se intruchipeaza!” Antoine de Saint Exupery
+“Cand soarele ne priveste sub alt unghi, vine primavara.” Valeriu Butulescu
+</p>	 
+    
+{% endblock %}   

@@ -1,0 +1,43 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+				<link href="{{ asset('assets/css/cssadriana.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block title %}Cornelia's Page{% endblock %}
+
+{% block body %}         
+            <ul>
+                <li>PABD - Proiect Software in echipa</li>
+                <li>Drasovean Cornelia</li>
+                
+
+							<h3> Issue3 - Crearea legaturilor catre paginiile colegilor! </h3>
+      <p link=class>
+           <a href="{{ path('hateganioanamaria') }}" target ="blank" >Ioana Hategan</a>
+           <br>
+           <a href="{{ path('preataadrianamaria') }}" target ="blank" >Adriana Preata</a>
+            <br>
+            <a href="{{ path('loredana') }}"target ="blank" >Loredana Buica</a>
+             <br>
+           <a href="{{ path('stancristian') }}"target ="blank" >Cristian Stan</a>
+            <br>
+            <a href="{{ path('raicabogdan') }}"target ="blank" >Bogdan Raica</a>
+            <br>
+             <a href="{{ path('coroiuadriana') }}"target ="blank" >Coroiu Adriana</a>
+      </p>							 
+							 
+							 
+           <h3> Educatia Tehnologica </h3> 
+           
+           
+             <p> 
+            <img class="img1" src="{{ asset('assets/images/tehno1.jpg') }}" alt="tehno" />	
+ Dezvoltarea tehnologica, progresele stiintifice si tehnice, trecerea de la societatea industrializata la cea postindustriala, informatizata, marile probleme globale create de civilizatie si cu care omenirea se confrunta determina o atentie corespunzatoare educatiei tehnologice.
+
+            </p>
+        
+  <img class="img2" src="{{ asset('assets/images/tehno2.jpg') }}" alt="tehno2" /> 
+<
+    
+{% endblock %}   
