@@ -62,3 +62,8 @@ raicabogdan:
         _controller: FrameworkBundle:Template:template
         template: '::raicabogdan.html.twig'
 
+boialuminita:
+    path: /boialuminita
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::boialuminita.html.twig'
