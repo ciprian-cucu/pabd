@@ -1,39 +1,29 @@
 {% extends '::base.html.twig' %}
 {% block stylesheets %}
-    <link rel="stylesheet" href="../../app/Resources/views/css/raicabogdan.css" />
+    <link rel="stylesheet" href="assets/css/boialuminita.css" />
 {% endblock %}
-{% block title %}Titlu{% endblock %}
+{% block title %}Tendinte 2013{% endblock %}
 {% block body %}
-   <p>Pagina mea: Raica Bogdan</p>
+   <p>Pagina mea: Boia Luminita</p>
 
         <ul id="navigation">
-                <li>Luni</li>
-                <li>Marti</li>
-                <li>Miercuri</li>
-                <li>Joi</li>
-                <li>Vineri</li>
+                <li>Tendinte in moda 2013</li>
+                <li>Coafuri in tendinta 2013</li>
+                <li>Tendinte manichiura 2013</li>
+                <li>Tendinte incaltaminte 2013</li>
+                <li>Tendinte machiaj 2013</li>
         </ul>
 
 Meniu  : <a href="/pabd/web/app_dev.php/" title="home">Home</a> | <a href="/pabd/web/app_dev.php/stancristian" title="Stan Cristian">Stan Cristian</a> | <a href="/pabd/web/app_dev.php/loredana" title="Loredana">Loredana</a> | <a href="/pabd/web/app_dev.php/coroiuadriana" title="Coroiu Adriana">Coroiu Adriana</a> | <a href="/pabd/web/app_dev.php/hateganioanamaria" title="Hategan Ioana Maria">Hategan Ioana Maria</a> | <a href="/pabd/web/app_dev.php/preataadrianamaria" title="Preata Adriana Maria">Preata Adriana Maria</a> | <a href="/pabd/web/app_dev.php/raicabogdan" title="Raica Bogdan">Raica Bogdan</a>| <a href="/pabd/web/app_dev.php/cristeadiana" title="Cristea Diana">Cristea Diana</a>| <a href="/pabd/web/app_dev.php/raicapaul" title="Raica Paul">Raica Paul</a>
-<h2>Why should I use a proxy?</h2>
-<p>One of the distinguishing features of HTTP compared to many other network protocols is that it has had since the start the ability to support proxies. Proxies are intermediaries to the communication flow, and can perform many added-value functions to enhance the overall user experience.
+<h2> Tendinte in moda 2013</h2>
+<p>Verde-smarald, geometrii în alb si negru, transparente diafane, material înflorate – sunt doar câteva dintre tendintele din moda noului sezon. În primavara acestui an, imprimeurile sunt o tendinta puternica, indiferent ca este vorba de modele florale, geometrice, pop art sau abstracte. Cele florale se poarta peste tot: pe fuste, pantaloni, jachete, rochii sau pantofi, toate au “înflorit”! Iar asta face ca piesele vestimentare sa fie foarte feminine, jucause.
 
-In general a proxy can be deployed in two configurations: forward (or regular) and reverse.</p>
-
-<h2>How to analyze whether squid is performing well</h2>
-<p>Users will always complain that Internet access is slow. The problem is: can they be trusted? Rarely. And the general availability of broadband at home has, if anything, made users even less reliable as a source of performance information as it raises their performance expectations beyond what is reasonable in a work environment.
-
-The first step is to quantify and measure the problem, since users almost always have a subjective (and not quantitative) view of what's going on.</p>
+<h2>Coafuri la moda in 2013</h2>
+<p>În egala masura cu tendintele de machiaj primavara/vara 2013, coafurile complimenteaza foarte bine stilurile vestimentare propuse de designeri pentru noul sezon.
+ Încarcate cu spiritul grunge al anilor '90, cu stilul excentric specific anilor '80 sau cu stilul sofisticat al anilor '60, coafurile noului sezon promit sa te transporte într-o decada în care, indiferent de maniera în care era coafat, parul era o componenta statement a look-ului tau.
+Suvite rasucite si înnodate,Cararea centrala, Texturi combinate, Cocuri messy, Coafuri grunge, Coada rasucita lateral, Swinging Sixties - coafuri voluminoase anii '60, etc.
+ </p>
 <div class="img"></div>
-<ul>
-	<li>Try a simple test: on a test client system with enough network access permissions, try accessing a test site or three of your choice, using a test pattern such as: clear browser cache, close all browser windows, open browser, access site without using the proxy, clear browser cache, close all browser windows, configure proxy, access site. Is there any noticeable performance difference? If not, then it's definitely not a problem with Squid. <span class="anchor" id="line-14"></span>
-	</li>
-	<li>Check your cache.log, and look if it says anything strange, such as squid restarting unexpectedly or complaining about some resource being unavailable (for instance, is it low on file descriptors?) <span class="anchor" id="line-15"></span>
-	</li>
-	<li>Check your uplink congestion rate. Is it congested? Squid can help with a congested uplink, but can't perform miracles. What about latencies? Do a traceroute to a test site and check what is the performance on the first two-three hops: the problem might not be with your uplink, but with your provider's. <span class="anchor" id="line-16"></span>
-	</li>
-	<li>Check your system performance: how much CPU time it spends running Squid, how much in the kernel, how much iowait, how much swap it is using, pagein and pageout rates, etc. The system must be in a sane state for squid to have a chance to perform. <span class="anchor" id="line-17"></span></li><li>If you found nothing so far, fire up your cachemgr and look for performance indicators such as hit ratio (memory, object and DNS), DNS response time, number of available filedescriptors. If you're using authentication check the authenticators' queues congestion - all these things add latency to a request handling, and that can generally make an user's browsing experience much worse. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span>
-	</li>
-</ul>
+
 
 {% endblock %}
