@@ -1,0 +1,15 @@
+body, html {
+  width:80%;
+	margin: 0 auto 0 auto;
+}
+
+body {
+	background:#ccc;
+}
+.img {
+	width:400px;
+	height:300px;
+	float:right;
+	margin:5px;
+	background:url('/assets/images/florale1.jpg');
+}
