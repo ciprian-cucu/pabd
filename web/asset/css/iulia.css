@@ -1,0 +1,22 @@
+body, html {
+width:80%;
+margin: 0 auto 0 auto;
+}
+
+body {
+background:#FF6347;
+}
+.img {
+width:200px;
+height:200px;
+float:right;
+margin:5px;
+
+}
+.image {
+width:200px;
+height:150px;
+float:right;
+margin:5px;
+
+}
