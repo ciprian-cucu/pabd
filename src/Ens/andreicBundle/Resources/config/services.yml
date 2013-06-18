@@ -1,0 +1,7 @@
+parameters:
+#    ensandreic.example.class: Ens\andreicBundle\Example
+
+services:
+#    ensandreic.example:
+#        class: %ensandreic.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

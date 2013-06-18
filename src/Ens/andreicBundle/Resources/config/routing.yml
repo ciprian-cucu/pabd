@@ -1,0 +1,6 @@
+ensandreic_homepage:
+    pattern:  /1/{name}
+    defaults: { _controller: EnsandreicBundle:Default:index }
+ensandreic_pagina2:
+    pattern:  /2/
+    defaults: { _controller: EnsandreicBundle:Default:pagina2 }
